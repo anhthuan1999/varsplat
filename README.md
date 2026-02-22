@@ -1,2 +1,2 @@
-# VarSplat: Uncertainty-aware 3D Gaussian Splatting for Robust RGB-D SLAM
-CVPR 2026
+## (CVPR'26) VarSplat: Uncertainty-aware 3D Gaussian Splatting for Robust RGB-D SLAM
+
