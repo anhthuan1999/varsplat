@@ -1,0 +1,19 @@
+inherit_from: configs/Replica/replica.yaml
+data:
+  scene_name: office4
+  input_path: data/Replica-SLAM/Replica/office4/
+  output_path: output/Replica/office4/
+
+# var:
+#   use_nlldepth: True
+#   tau_track: 10.0
+#   tau_registration: 10.0
+#   tau_lc: 30.0
+#   w_limit: 3.0
+
+var:
+  use_nlldepth: True
+  tau_track: 100.0
+  tau_registration: 100.0
+  tau_lc: 30.0
+  w_limit: 3.0

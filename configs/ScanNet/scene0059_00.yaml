@@ -1,0 +1,21 @@
+inherit_from: configs/ScanNet/scannet.yaml
+data:
+  input_path: data/scannet/scene0059_00
+  output_path: output/ScanNet/scene0059
+  scene_name: scene0059_00
+cam: 
+  H: 480 
+  W: 640
+  fx: 577.6
+  fy: 578.7
+  cx: 318.9
+  cy: 242.7
+  depth_scale: 1.
+  crop_edge: 12
+
+var:
+  use_nlldepth: True
+  tau_track: 5.0
+  tau_registration: 5.0
+  tau_lc: 3.0
+  w_limit: 3.0

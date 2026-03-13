@@ -1,0 +1,17 @@
+inherit_from: configs/ScanNet/scannet.yaml
+data:
+  input_path: data/scannet/scene0233_00
+  output_path: output/ScanNet/scene0233
+  scene_name: scene0233_00
+cam: 
+  fx: 577.9
+  fy: 577.9
+  cx: 319.5
+  cy: 239.5
+
+var:
+  use_nlldepth: False
+  tau_track: 30.0
+  tau_registration: 30.0
+  tau_lc: 10.0
+  w_limit: 3.0

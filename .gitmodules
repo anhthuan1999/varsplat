@@ -1,0 +1,15 @@
+[submodule "thirdparty/Hierarchical-Localization"]
+	path = thirdparty/Hierarchical-Localization
+	url = https://github.com/cvg/Hierarchical-Localization.git
+[submodule "thirdparty/diff-gaussian-rasterization-w-pose-var"]
+	path = thirdparty/diff-gaussian-rasterization-w-pose-var
+	url = https://github.com/anhthuan1999/diff-gaussian-rasterization-w-pose-var.git
+[submodule "thirdparty/evaluate_3d_reconstruction_lib"]
+	path = thirdparty/evaluate_3d_reconstruction_lib
+	url = https://github.com/eriksandstroem/evaluate_3d_reconstruction_lib.git
+[submodule "thirdparty/gaussian_rasterizer_var"]
+	path = thirdparty/gaussian_rasterizer_var
+	url = https://github.com/anhthuan1999/gaussian_rasterizer_var.git
+[submodule "thirdparty/simple-knn"]
+	path = thirdparty/simple-knn
+	url = https://github.com/anhthuan1999/simple-knn.git
