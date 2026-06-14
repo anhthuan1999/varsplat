@@ -19,6 +19,8 @@
   <div align="center"></div>
 </p>
 
+<p align="center"><img src="assets/teaser.png"/></p>
+
 <!-- ## Description
 
 **VarSplat** is an uncertainty-aware RGB-D SLAM system leveraging 3D Gaussian Splatting. VarSplat explicitly learns per-splat appearance variance σ² and, via the law of total variance, renders differentiable per-pixel uncertainty maps through efficient single-pass rasterization. This uncertainty is integrated across all three downstream stages:
